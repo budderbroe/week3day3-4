@@ -1,0 +1,85 @@
+body, p, h1, a {
+    margin: 0 0;
+}
+body {
+    background-color:black;
+}
+.color {
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navbar {
+    border-bottom: 1px white solid;
+    display: inline-block;
+    width: 80%;
+    margin-left: 8%;
+    margin-top: 20px;
+    padding: 0px 10px 10px 10px;
+}
+.navbar p {
+    float: left;
+}
+.navbar a{
+    float: right;
+    margin-left: 5px;
+}
+.maintext {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 400px;
+    height: 100px;
+}
+.maintext h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 72px;
+    border-bottom: solid 1px white;
+    text-align: center;
+}
+.maintext h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+.bread {
+    margin-top: 35%;
+}
+.bread img {
+    float: left;
+    margin-top: -5%;
+}
+.bread h1 {
+    margin-left: 41%;
+}
+.bread p {
+    margin-left: 41%;
+    margin-top: 30px;
+}
+.pineapple {
+    margin-top: 35%;
+    padding-left: auto;
+}
+.pineapple img {
+    float: right;
+    margin-top: -5%;
+}
+.pineapple h1 {
+    margin-right: 41%;
+    margin-left: 20px;
+}
+.pineapple p {
+    margin-right: 41%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.pasta {
+    display: flex;
+    margin-top: 35%;
+}
+.pastatext {
+    margin-top: 10%;
+    margin-left: 20px;
+    flex-direction: column;
+}
