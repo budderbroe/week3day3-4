@@ -7,8 +7,9 @@ body {
 .color {
     color: white;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);    
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .navbar {
     border-bottom: 1px white solid;
@@ -45,38 +46,27 @@ body {
 }
 .bread {
     margin-top: 35%;
+    background-color: black;
+    display: flex;
 }
-.bread img {
-    float: left;
-    margin-top: -5%;
-}
-.bread h1 {
-    margin-left: 41%;
-}
-.bread p {
-    margin-left: 41%;
-    margin-top: 30px;
+.breadtext {
+    margin-top: 10%;
+    margin-left: 20px;
+    flex-direction: column;
 }
 .pineapple {
-    margin-top: 35%;
-    padding-left: auto;
+    display: flex;
+    background-color: rgb(26, 26, 26);
+    flex-direction: row-reverse;
 }
-.pineapple img {
-    float: right;
-    margin-top: -5%;
-}
-.pineapple h1 {
-    margin-right: 41%;
+.pineappletext {
+    margin-top: 10%;
     margin-left: 20px;
-}
-.pineapple p {
-    margin-right: 41%;
-    margin-top: 30px;
-    margin-left: 20px;
+    flex-direction: column;
 }
 .pasta {
+    background-color: black;
     display: flex;
-    margin-top: 35%;
 }
 .pastatext {
     margin-top: 10%;
